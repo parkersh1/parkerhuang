@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parker Huang | Portfolio</title>
+  <meta name="description" content="Parker Huang — Informatics (Data Science) @ UW. Projects, experience, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav">
+      <div class="brand">
+        <a href="#top" class="brand__link" aria-label="Home">PH</a>
+      </div>
+
+      <button class="nav__toggle" aria-expanded="false" aria-controls="navLinks">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <div id="navLinks" class="nav__links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <button id="themeBtn" class="btn btn--icon" type="button" aria-label="Toggle theme" title="Toggle theme">
+          <span class="icon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow">Informatics (Data Science) @ UW • Seattle</p>
+          <h1>Parker Huang</h1>
+          <p class="lead">
+            Data science and analytics-focused builder with experience shipping product features and working with stakeholders.
+            Interested in roles that blend analysis, engineering, and clear communication.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#projects">View projects</a>
+            <a class="btn btn--ghost" href="#contact">Contact</a>
+          </div>
+
+          <div class="quick-links">
+            <a href="mailto:parkerhua04@gmail.com">parkerhua04@gmail.com</a>
+            <span class="dot" aria-hidden="true">•</span>
+            <a href="tel:+14252008705">(425) 200-8705</a>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="card">
+            <div class="card__top">
+              <div class="avatar" aria-hidden="true">PH</div>
+              <div>
+                <p class="card__title">Currently</p>
+                <p class="card__text">Student Office Assistant, UW iSchool</p>
+              </div>
+            </div>
+
+            <div class="card__row">
+              <p class="card__label">Focus</p>
+              <p class="card__value">Analytics, DS, Product</p>
+            </div>
+            <div class="card__row">
+              <p class="card__label">Graduation</p>
+              <p class="card__value">June 2026 (expected)</p>
+            </div>
+            <div class="card__row">
+              <p class="card__label">Open to</p>
+              <p class="card__value">Internships + New Grad</p>
+            </div>
+
+            <div class="card__footer">
+              <a class="btn btn--small" href="#contact">Let’s connect</a>
+              <a class="btn btn--small btn--ghost" href="#experience">See experience</a>
+            </div>
+          </div>
+          <p class="hint">Tip: replace “PH” with a headshot (optional) in <span class="mono">index.html</span>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2>About</h2>
+          <p class="muted">A quick snapshot. Expand this as you refine your story.</p>
+        </div>
+
+        <div class="two-col">
+          <div>
+            <p>
+              I’m a UW Informatics student (Data Science track) who likes work that is both analytical and hands-on.
+              I enjoy turning messy inputs into clear outputs, and I care about building things that are useful to real people.
+            </p>
+            <p>
+              Most recently, I worked in Paris as a Data Science Intern at American Express Global Business Travel, where I helped develop AI-driven travel search functionality inside a .NET application and used data analysis to inform refresh and completeness strategies.
+            </p>
+            <p class="muted small">
+              Optional: add a sentence about what you want next (industries, problems you care about, location, etc.).
+            </p>
+          </div>
+
+          <div class="callout">
+            <h3>Highlights</h3>
+            <ul class="bullets">
+              <li>3.80 GPA, Dean’s List (9/9 quarters)</li>
+              <li>Experience: C#/.NET, Python, SQL, Tableau</li>
+              <li>Built web apps with React + Firebase</li>
+              <li>Founder/President of osu! Players @ UW (50+ members)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2>Experience</h2>
+          <p class="muted">Selected roles. Keep it skimmable.</p>
+        </div>
+
+        <div class="stack">
+          <article class="item">
+            <div class="item__top">
+              <h3>American Express Global Business Travel (GBT)</h3>
+              <p class="muted">Data Science Intern • Paris, France • Jun 2025 – Sep 2025</p>
+            </div>
+            <ul class="bullets">
+              <li>Developed AI-driven travel search functionality inside a .NET 9 application.</li>
+              <li>Integrated lodging/flight APIs and built maintainable backend services (DI + HTTP client management).</li>
+              <li>Analyzed rate stability and data completeness to inform refresh strategy.</li>
+            </ul>
+            <p class="tags">
+              <span class="tag">C#/.NET</span><span class="tag">Python</span><span class="tag">Excel</span><span class="tag">Git</span>
+            </p>
+          </article>
+
+          <article class="item">
+            <div class="item__top">
+              <h3>University of Washington Information School</h3>
+              <p class="muted">Student Office Assistant • Seattle, WA • Sep 2024 – Present</p>
+            </div>
+            <ul class="bullets">
+              <li>Supported fundraising and alumni relations through data management and communications.</li>
+              <li>Helped with event coordination, record-keeping, and reporting.</li>
+            </ul>
+            <p class="tags">
+              <span class="tag">Excel</span><span class="tag">Word</span><span class="tag">Ops</span>
+            </p>
+          </article>
+
+          <article class="item">
+            <div class="item__top">
+              <h3>First-Year Interest Group (FIG) Leader</h3>
+              <p class="muted">Instructor • Seattle, WA • Mar 2024 – Dec 2024</p>
+            </div>
+            <ul class="bullets">
+              <li>Taught weekly “All Things Data” to ~25 incoming Informatics students.</li>
+              <li>Led sessions on R, data visualization, and Figma.</li>
+            </ul>
+            <p class="tags">
+              <span class="tag">Teaching</span><span class="tag">R</span><span class="tag">Figma</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2>Projects</h2>
+          <p class="muted">Pick 2–4 strong projects and tell a clear story for each.</p>
+        </div>
+
+        <div class="grid">
+          <article class="proj card">
+            <div class="proj__top">
+              <h3>Hashtagify</h3>
+              <p class="muted small">Web app • React, Firebase, Spotify API</p>
+            </div>
+            <p>
+              Music discovery platform that adds user-generated tags to improve transparency and control over recommendations.
+            </p>
+            <ul class="bullets small">
+              <li>Upload playlists, explore music through tags, browse community playlists.</li>
+              <li>Responsive UI with reliable auth + data handling.</li>
+            </ul>
+            <div class="proj__links">
+              <a class="btn btn--small btn--ghost" href="#" target="_blank" rel="noreferrer">Live demo</a>
+              <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="proj card">
+            <div class="proj__top">
+              <h3>Fashion Review Sentiment Tracker</h3>
+              <p class="muted small">Data analysis • Python, VADER, Excel</p>
+            </div>
+            <p>
+              Sentiment analysis on fashion show reviews (2018–2024) to compare designer reception over time.
+            </p>
+            <ul class="bullets small">
+              <li>Processed reviews and computed sentiment scores with VADER.</li>
+              <li>Summarized trends with Excel charts and tables.</li>
+            </ul>
+            <div class="proj__links">
+              <a class="btn btn--small btn--ghost" href="#" target="_blank" rel="noreferrer">Write-up</a>
+              <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="proj card">
+            <div class="proj__top">
+              <h3>Osu! Players @ UW Member Database</h3>
+              <p class="muted small">Community ops • events + data</p>
+            </div>
+            <p>
+              Built lightweight tracking to improve engagement and tournament operations for a 50+ member student community.
+            </p>
+            <ul class="bullets small">
+              <li>Supported marketing + event planning with better member visibility.</li>
+              <li>Helped grow membership ~60% YoY.</li>
+            </ul>
+            <div class="proj__links">
+              <a class="btn btn--small btn--ghost" href="#" target="_blank" rel="noreferrer">Details</a>
+              <a class="btn btn--small" href="#" target="_blank" rel="noreferrer">Artifacts</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="callout callout--wide">
+          <h3>Project case study template (copy/paste)</h3>
+          <p class="muted small">
+            For each project page/section, include: Context → Your role → What you built → How you measured impact →
+            What you’d do next. Add screenshots, diagrams, or a short demo clip.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2>Skills</h2>
+          <p class="muted">Tools I use (and keep improving).</p>
+        </div>
+
+        <div class="pill-grid">
+          <div class="pill-group">
+            <h3>Languages</h3>
+            <div class="pills">
+              <span class="pill">Python</span><span class="pill">SQL</span><span class="pill">JavaScript</span>
+              <span class="pill">C#</span><span class="pill">Java</span><span class="pill">R</span>
+              <span class="pill">HTML/CSS</span>
+            </div>
+          </div>
+
+          <div class="pill-group">
+            <h3>Data</h3>
+            <div class="pills">
+              <span class="pill">pandas</span><span class="pill">NumPy</span><span class="pill">scikit-learn</span>
+              <span class="pill">Matplotlib</span><span class="pill">Plotly</span><span class="pill">Tableau</span>
+              <span class="pill">Excel</span>
+            </div>
+          </div>
+
+          <div class="pill-group">
+            <h3>Product + Design</h3>
+            <div class="pills">
+              <span class="pill">Figma</span><span class="pill">UX/UI</span><span class="pill">Firebase</span>
+              <span class="pill">Git/GitHub</span>
+            </div>
+          </div>
+
+          <div class="pill-group">
+            <h3>Creative</h3>
+            <div class="pills">
+              <span class="pill">Photoshop</span><span class="pill">Illustrator</span><span class="pill">Premiere Pro</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2>Contact</h2>
+          <p class="muted">Fastest way: email.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__card card">
+            <h3>Reach out</h3>
+            <p class="muted">I’m happy to chat about internships, projects, or collaboration.</p>
+            <div class="contact__links">
+              <a class="btn" href="mailto:parkerhua04@gmail.com">Email me</a>
+              <a class="btn btn--ghost" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="btn btn--ghost" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <div class="contact__details">
+            <p><span class="label">Email</span> <a href="mailto:parkerhua04@gmail.com">parkerhua04@gmail.com</a></p>
+            <p><span class="label">Phone</span> <a href="tel:+14252008705">(425) 200-8705</a></p>
+            <p><span class="label">Location</span> Seattle, WA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <p class="muted small">© <span id="year"></span> Parker Huang</p>
+      <p class="muted small">Built with plain HTML/CSS • Deployable on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
