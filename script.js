@@ -34,14 +34,13 @@
     if (icon) icon.textContent = mode === "light" ? "☀" : "☾";
   }
 
-  const saved = localStorage.getItem(STORAGE_KEY);
-  if (saved === "light" || saved === "dark") {
-    setTheme(saved);
-  } else {
-    // Respect system preference by default
-    const prefersLight = window.matchMedia?.("(prefers-color-scheme: light)")?.matches;
-    setTheme(prefersLight ? "light" : "dark");
-  }
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved === "light" || saved === "dark") {
+      setTheme(saved);
+    } else {
+      setTheme("light");
+    }
+
 
   themeBtn?.addEventListener("click", () => {
     const current = root.getAttribute("data-theme") === "light" ? "light" : "dark";
